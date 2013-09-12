@@ -1,4 +1,4 @@
-filetype off                   " required!
+filetype off
 
 syntax on
 set rtp+=~/.vim/bundle/vundle/
@@ -21,7 +21,11 @@ Bundle 'wincent/Command-T'
 Bundle 'mileszs/ack.vim'
 Bundle 'tpope/vim-rails'
 
-filetype plugin indent on     " required!
+filetype plugin indent on
+
+autocmd Filetype html setlocal ts=2 sts=2 sw=2
+autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
+autocmd Filetype javascript setlocal ts=4 sts=4 sw=4
 
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
 
