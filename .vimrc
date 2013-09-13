@@ -20,6 +20,7 @@ Bundle 'jpo/vim-railscasts-theme'
 Bundle 'wincent/Command-T'
 Bundle 'mileszs/ack.vim'
 Bundle 'tpope/vim-rails'
+Bundle 'mattn/emmet-vim'
 
 filetype plugin indent on
 
