@@ -21,6 +21,7 @@ Bundle 'wincent/Command-T'
 Bundle 'mileszs/ack.vim'
 Bundle 'tpope/vim-rails'
 Bundle 'mattn/emmet-vim'
+Bundle 'scrooloose/syntastic'
 
 filetype plugin indent on
 
