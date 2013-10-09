@@ -23,6 +23,9 @@ Bundle 'tpope/vim-rails'
 Bundle 'mattn/emmet-vim'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'scrooloose/syntastic'
+Bundle 'tpope/vim-surround'
+Bundle 'jwhitley/vim-matchit'
+Bundle 'sjl/gundo.vim'
 
 filetype plugin indent on
 
