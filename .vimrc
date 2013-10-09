@@ -38,6 +38,9 @@ autocmd Filetype php setlocal ts=4 sts=4 sw=4
 set number
 
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
+silent! nmap <silent> <Leader>u :GundoToggle<CR>
+
+let g:gundo_right = 1
 
 colorscheme railscasts
 
