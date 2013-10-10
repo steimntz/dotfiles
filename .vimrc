@@ -4,9 +4,10 @@ syntax on
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-Bundle 'gmarik/vundle'
+Bundle "gmarik/vundle"
 
 " My bundles
+Bundle "ctag"
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
@@ -16,20 +17,20 @@ Bundle "SearchComplete"
 Bundle "delimitMate.vim"
 Bundle "The-NERD-Commenter"
 Bundle "scrooloose/nerdtree"
-Bundle 'wincent/Command-T'
-Bundle 'mileszs/ack.vim'
-Bundle 'tpope/vim-rails'
-Bundle 'mattn/emmet-vim'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'scrooloose/syntastic'
-Bundle 'tpope/vim-surround'
-Bundle 'jwhitley/vim-matchit'
-Bundle 'sjl/gundo.vim'
+Bundle "wincent/Command-T"
+Bundle "mileszs/ack.vim"
+Bundle "tpope/vim-rails"
+Bundle "mattn/emmet-vim"
+Bundle "Lokaltog/vim-easymotion"
+Bundle "scrooloose/syntastic"
+Bundle "tpope/vim-surround"
+Bundle "jwhitley/vim-matchit"
+Bundle "sjl/gundo.vim"
 
-Bundle 'jpo/vim-railscasts-theme'
-Bundle 'dterei/Twilight'
-Bundle 'vim-misc'
-Bundle 'vim-colorscheme-switcher'
+Bundle "jpo/vim-railscasts-theme"
+Bundle "dterei/Twilight"
+Bundle "vim-misc"
+Bundle "vim-colorscheme-switcher"
 
 filetype plugin indent on
 
