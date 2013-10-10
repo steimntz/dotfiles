@@ -26,6 +26,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-surround'
 Bundle 'jwhitley/vim-matchit'
 Bundle 'sjl/gundo.vim'
+Bundle 'dterei/Twilight'
 
 filetype plugin indent on
 
@@ -42,7 +43,7 @@ silent! nmap <silent> <Leader>u :GundoToggle<CR>
 
 let g:gundo_right = 1
 
-colorscheme railscasts
+colorscheme twilight
 
 map <C-k> <C-w><Up>
 map <C-j> <C-w><Down>
