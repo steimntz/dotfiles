@@ -52,3 +52,6 @@ map <C-k> <C-w><Up>
 map <C-j> <C-w><Down>
 map <C-l> <C-w><Right>
 map <C-h> <C-w><Left>
+set cursorline
+hi CursorLine term=bold cterm=bold guibg=Grey40
+nnoremap <Leader>c :set cursorline!<CR>
