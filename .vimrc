@@ -7,7 +7,6 @@ call vundle#rc()
 Bundle "gmarik/vundle"
 
 " My bundles
-Bundle "ctag"
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
