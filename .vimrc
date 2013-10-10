@@ -16,7 +16,6 @@ Bundle "SearchComplete"
 Bundle "delimitMate.vim"
 Bundle "The-NERD-Commenter"
 Bundle "scrooloose/nerdtree"
-Bundle 'jpo/vim-railscasts-theme'
 Bundle 'wincent/Command-T'
 Bundle 'mileszs/ack.vim'
 Bundle 'tpope/vim-rails'
@@ -26,7 +25,11 @@ Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-surround'
 Bundle 'jwhitley/vim-matchit'
 Bundle 'sjl/gundo.vim'
+
+Bundle 'jpo/vim-railscasts-theme'
 Bundle 'dterei/Twilight'
+Bundle 'vim-misc'
+Bundle 'vim-colorscheme-switcher'
 
 filetype plugin indent on
 
