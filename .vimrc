@@ -31,6 +31,9 @@ Bundle "dterei/Twilight"
 Bundle "vim-misc"
 Bundle "vim-colorscheme-switcher"
 
+Bundle "Vim-JDE"
+Bundle "vim-dict"
+
 filetype plugin indent on
 
 autocmd Filetype html setlocal ts=2 sts=2 sw=2
