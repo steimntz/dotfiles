@@ -16,7 +16,6 @@ Bundle "SearchComplete"
 Bundle "delimitMate.vim"
 Bundle "The-NERD-Commenter"
 Bundle "scrooloose/nerdtree"
-Bundle "wincent/Command-T"
 Bundle "mileszs/ack.vim"
 Bundle "tpope/vim-rails"
 Bundle "mattn/emmet-vim"
@@ -25,6 +24,7 @@ Bundle "scrooloose/syntastic"
 Bundle "tpope/vim-surround"
 Bundle "jwhitley/vim-matchit"
 Bundle "sjl/gundo.vim"
+Bundle "ctrlp.vim"
 
 Bundle "jpo/vim-railscasts-theme"
 Bundle "dterei/Twilight"
@@ -48,6 +48,7 @@ set number
 
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
 silent! nmap <silent> <Leader>u :GundoToggle<CR>
+silent! nmap <silent> <Leader>t :CtrlP<CR>
 
 let g:gundo_right = 1
 
