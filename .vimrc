@@ -32,6 +32,8 @@ Bundle "vim-misc"
 Bundle "vim-colorscheme-switcher"
 
 Bundle "Vim-JDE"
+Bundle "JavaRun"
+
 Bundle "vim-dict"
 
 filetype plugin indent on
